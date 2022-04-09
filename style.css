@@ -1,0 +1,105 @@
+/*string Tag*/    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+/*body*/
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box; 
+        background-color: bisque;       
+    }
+    .mainContant{
+        width: 100%;
+        min-height: 300px;
+        /*display: flex;
+        align-content: center;
+        align-items: center;*/
+    }
+/*InpurArea*/
+    .inputArea{
+        width: 100%;
+        min-height: 300px;
+        /*display: flex;
+        align-content: center;
+        align-items: center;*/
+    }
+    h5{
+        color: red;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .in{
+        width: 200px;
+        height: 50px;
+        border: 4px double red;
+        margin: 5px;
+       /*display: block;
+        align-items: center;*/
+    }
+    .inputArea a{
+        width: 200px;
+        height: 50px;
+        border: 4px double rgb(255, 149, 0);
+        margin: 5px;
+        /*display: block;
+        align-items: center;*/
+    }
+    .inputArea label{
+        font-size: large;
+        font-weight: bolder;
+       /* display: block;
+        align-items: center;
+        color: rgb(0, 12, 143);*/
+    }
+    .byn{
+        border: 3px dotted white;
+        text-align: center;
+    }
+    .byn:hover{
+        background-color: rgb(56, 101, 1);
+        color: red;
+    }
+    .inputArea input:active{
+        background-color: rgb(11, 0, 28);
+        color: white;
+    }
+/*OutputArea*/
+    .outputArea{
+        width: 100%;
+        height: auto;
+        border: 1px solid beige;
+    }
+    .outputArea label{
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: x-large;
+        text-align: center;
+        margin: 5px;
+        padding: 4px;
+        color: rgb(179, 3, 3);
+        display: block;
+        align-items: center;
+    }
+    .rsultOfAdd{
+        width: 100%;
+        height: auto;
+        box-sizing: content-box;
+    }
+    .rsultOfAdd h1{
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Lucida Sans';
+    }
+    .output{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        color: rgb(38, 0, 255);
+        font-size: xx-large;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
